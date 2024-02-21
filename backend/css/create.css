@@ -60,7 +60,7 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
+    background-color: #C36B22;
     color: #fff;
     padding: 10px 15px;
     font-size: 16px;
@@ -70,5 +70,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #FF7400;
 }

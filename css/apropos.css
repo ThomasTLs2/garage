@@ -64,3 +64,33 @@ p {
         margin-left: 0px;
     }
 }
+
+@media (min-width: 768px) {
+    body {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h2 {
+        margin-top: 150px; 
+    }
+
+    p {
+        font-size: 18px; 
+        line-height: 1.8;
+    }
+
+    .text-container {
+        max-width: 800px; 
+        padding: 0;
+    }
+
+    .about-section-service,
+    .about-section-vision {
+        width: 60%; 
+        margin-left: auto;
+        margin-right: auto;
+        height: 342px; 
+    }
+
+}
