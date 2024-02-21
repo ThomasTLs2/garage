@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D8D8D8;
+
+  }
+  form {
+    margin: 350px auto;
+    max-width: 800px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+    font-size: 20px;
+}
+
+form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+form .corps-formulaire {
+    margin-bottom: 100px;
+}
+
+form .corps-formulaire .groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #C36B22;
+    border-radius: 5px;
+}
+
+form .corps-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #C36B22;
+}
+
+form .corps-formulaire .droite {
+    margin-left: 40px;
+}
+
+form .corps-formulaire .droite .groupe {
+    height: 100%;
+}
+
+form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #C36B22;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+}
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #C36B22;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.10);
+    background-color: #FF7400;
+}
+
+@media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+        margin-left: 0px;
+    }
+}

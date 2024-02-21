@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.header {
+    background-image: url('../images/test.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%; 
+}
+  .header .menu a {
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 88px;
+    bottom: 60px;
+    margin-left: 50px;
+    
+    /*taille */
+    background: #906427;
+    border-radius: 30px;
+    width: 103px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    
+    /*Taille ecriture*/
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    }
+    .header img.logo{
+      height: 100px;
+      margin-left: 900px;
+      justify-content: center;
+      text-align: center;
+    }
+    .header .menu a:hover {
+      background: #392C1E;
+    }
+    
+body .menu h1 {
+    font-size: 50px;
+    font-family: "lobster";
+    text-align: center;
+}
+
+.body {
+    font-family: 'lobster';
+    text-align: center;
+}
+/*-----------------------------------------*/
+
+.menu h1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 50px;
+}
+
+.menu-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body .menu .menu-title {
+    color: #906427;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.menu-table {
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    padding-right: 250px;
+  }
+/*-----------------------------------------*/
+.content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer {
+    bottom: -300px;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer .horaires li{
+    width: 100%;
+    height: 50px;
+}
+
+.footer .contact li{
+    width: 150%;
+    height: 50px;
+}
+
+.footer .horaires {
+    color: white;
+    display: inline-block; 
+    font-family: 'lobster';
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 250px;
+}
+
+.footer .horaires H3 {
+    color: #906427;
+}
+
+.footer .contact{
+    color: white;
+    font-family: 'lobster';
+    text-align: center;
+    padding-right: 250px;
+    list-style: none;
+}
+
+.footer .contact H3 {
+    color: #906427;
+}
+
+.footer .rejoindre {
+    text-align: center;
+    color: white;
+    font-family: lobster;
+    padding-right: 200px;
+}
+
+.footer .rejoindre H3 {
+    color: #906427;
+}
+
+.footer .map {
+    justify-content: right;
+    text-align: right;
+    position: relative;
+    top: 20px;
+
+    height: 180px;
+    padding-right: 70px;
+    
+}

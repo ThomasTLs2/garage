@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'SignikaNegativeSC';
+    src: url('../fonts/SignikaNegativeSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header {
+    position: fixed; 
+    width: 100%;
+    height: 237px;
+    left: 0;
+    top: 0;
+    background: #85ABBB;
+    z-index: 1000;
+}
+
+.header .menu a {
+    font-family: 'SignikaNegativeSC';
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    font-style: normal;
+}
+
+
+.header .menu a.accueil {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 10px;
+
+    width: 161px;
+    height: 47px;
+    left: 553px;
+    top: 131px;
+
+    background: #173443;
+    border-radius: 60px;
+
+    width: 81px;
+    height: 27px;
+
+    font-family: 'Signika SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header .menu a.accueil:hover {
+    background: #9CA8AE;
+}
+
+.header .menu a.vehicule-occas {
+    width: 223px;
+    height: 34px;
+    left: 739px;
+    top: 144px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.header .menu a.vehicule-occas:hover {
+    color: #FF7400;
+}
+
+.header .menu a.rep-caro {
+    width: 251px;
+    height: 35px;
+    left: 987px;
+    top: 144px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.header .menu a.rep-caro:hover {
+    color: #FF7400;
+}
+
+.header .menu a.rep-meca{
+    width: 232px;
+    height: 32px;
+    left: 1263px;
+    top: 144px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.header .menu a.rep-meca:hover {
+    color: #FF7400;
+}
+
+.header .menu a.apropos {
+    width: 97px;
+    height: 34px;
+    left: 1520px;
+    top: 144px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000; 
+}
+
+.header .menu a.apropos:hover {
+    color: #FF7400;
+}
+
+.header .menu a.contact {
+    width: 1902px;
+    height: 237px;
+    left: -2px;
+    top: 0px;
+
+    background: #85ABBB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 10px;
+
+    width: 165px;
+    height: 47px;
+    left: 1642px;
+    top: 139px;
+
+    background: #C36B22;
+    border-radius: 60px;
+    width: 85px;
+    height: 27px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header .menu a.contact:hover {
+    background-color: #FF7400;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 237px;
+    left: -2px;
+    top: 0px;
+
+    background: #85ABBB;
+}
+
+.logo{
+    position: absolute;
+    width: 311px;
+    height: 262px;
+    left: 27px;
+    top: -12px;
+}
+
+.bannière {
+    position: absolute;
+    width: 100%;
+    height: 518px;
+    left: -11px;
+    top: 233px;
+}
+
+

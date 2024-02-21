@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D8D8D8;
+    padding-top: 300px;
+}
+
+.footer{
+   bottom: -200px
+}
+
+p {
+    background-color: white;
+    font-size: 18px; 
+    line-height: 1.8;
+    color: black;
+    text-align: center;
+    max-width: 900px; 
+    margin: 0 auto; 
+    text-align: left;
+    border-radius: 20px;
+}
