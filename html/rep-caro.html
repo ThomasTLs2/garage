@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">  
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quai Antique</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/rep-caro.css">
+</head>
+  <!-----------------------------------------------HEADER------------------------------------------------------->
+<header>
+    <nav>
+        <div class="header">
+          <a href="index.php">
+            <img class="logo" src="../images/Logo.png" alt="Logo">
+          </a>
+            <div class="menu">
+              <a href="index.php" class="accueil" >Accueil</a>
+              <a href="vehicule-occas.php" class="vehicule-occas">Véhicules D'occasion</a>
+              <a href="rep-caro.html" class="rep-caro" >Réparation Carrosserie</a>
+              <a href="rep-meca.html" class="rep-meca">Réparation Mecanique</a>
+              <a href="apropos.html" class="apropos" >A Propos</a>
+              <a href="contact.html" class="contact">contact</a>
+            </div>
+        </div>
+      </nav>
+</header>
+
+  <!-----------------------------------------------BODY------------------------------------------------------->
+<body>
+    <nav>
+        <div class="button-container">
+            <button onclick="showPage('page1')">Enlever une Rayure Profonde de la Voiture</button>
+            <button onclick="showPage('page2')">Réparation Pare Choc Plastique</button>
+            <button onclick="showPage('page3')">Rénovation Optique de Phare</button>
+            <button onclick="showPage('page4')">Remplacement Pare Brise</button>
+        </div>
+    </nav>
+    <script> 
+        function showPage(pageId) {
+            var pages = document.querySelectorAll('.page');
+            pages.forEach(function(page) {
+                page.style.display = 'none';
+            });
+    
+            document.getElementById(pageId).style.display = 'block';
+                var buttons = document.querySelectorAll('button');
+            buttons.forEach(function(button) {
+                button.classList.remove('active');
+            });
+            document.querySelector('button[data-page="' + pageId + '"]').classList.add('active');
+        }
+    </script>
+    <div class="content">
+       <div id="page1" class="page">
+        <h2>Enlever une Rayure Profonde de la Voiture</h2>
+
+          <h1>Comment faire réparer votre voiture dans un garage AD ?</h1>
+      
+          <p>Besoin de faire enlever une rayure profonde sur votre voiture ? Votre pare-choc est fendu ? Votre carrosserie a besoin de se refaire une beauté ? Chez AD, nous pouvons nous occuper de la réparation et de l’entretien de la carrosserie de votre voiture. Cette prestation s’étend à tous les aspects extérieurs de la voiture, depuis les vitres jusqu’aux enjoliveurs en passant, bien sûr, par toute la tôle, et depuis les plus gros éclats jusqu’aux plus petites bosses.</p>
+      
+          <h1>À quoi ça sert de réparer sa voiture ? Comment cela fonctionne ?</h1>
+      
+          <p>Réparer régulièrement la carrosserie est essentiel dans l’entretien de votre véhicule. Elle permet de conserver la garantie du constructeur, mais aussi de préserver le capital esthétique de votre voiture.</p>
+      
+          <p>Selon la gravité d’une collision, une automobile peut être immobilisée pendant une longue durée, mais si le choc est mineur, certains éléments peuvent être rapidement remis en état et à moindre coût. Dans tous les cas, nous proposons à nos clients des devis listant toutes les réparations que nous pouvons effectuer. Avec la liste des réparations que nous proposons d’effectuer, ainsi que le prix de chacune, vous pourrez prendre une décision éclairée quant à l’entretien de votre véhicule personnel.</p>
+      
+          <h1>Quels sont les symptômes qui vous alertent ?</h1>
+      
+          <p>
+              Différents symptômes doivent vous faire remarquer qu’il est temps de faire la réparation de votre carrosserie. Si vous constatez l’un d’eux, il vous faut amener votre voiture chez un carrossier.
+          </p>
+          <ul>
+              <li>Un impact sur le pare-brise,</li>
+              <li>Vitre brisée,</li>
+              <li>Optique avant ou feux arrière fêlés,</li>
+              <li>Rétroviseur cassé ou miroir fissuré,</li>
+              <li>Rayures de carrosserie peu profondes,</li>
+              <li>Bandeau de porte éraflé,</li>
+              <li>Baguette ou enjoliveur dégradés ou absents,</li>
+              <li>Pare-chocs fendu ou mal fixé.</li>
+          </ul>
+      
+          <h1>Quels sont les risques encourus ?</h1>
+      
+          <ul>
+              <li>La remise en état devient plus coûteuse si les dommages s’accumulent.</li>
+              <li>Une petite retouche de peinture pour votre voiture peut rapporter plus que son prix, tant le capital esthétique influe sur la revente du véhicule.</li>
+          </ul>
+      
+          <p>Les carrossiers AD peuvent vous apporter leur savoir-faire en matière de rénovation optique et plastique ou en réparation et remplacement des vitrages.</p>
+      
+          <h1>À savoir</h1>
+      
+          <p>Si les rayures sur la peinture sont peu profondes, le lustrage peut les rendre invisibles, permettant ainsi un coût de remise en état moindre.</p>
+      
+          <p>Contrairement à une réparation qui nécessiterait une immobilisation conséquente de plusieurs jours, la prestation de carrosserie rapide permet de remettre en état votre véhicule dans un délai court.</p>
+      
+          <p>Lors de la vente de son véhicule, si l’entretien mécanique est impératif, le maintien du capital esthétique de la voiture reste un gage pour une revente plus facile et atteste de l’attention portée à votre bien.</p>
+          
+    </div>
+
+    <div id="page2" class="page">
+      
+          <h1>Réparation Pare Choc Plastique : Prix et Devis</h1>
+
+      <p>Besoin d'une réparation de pare-choc plastique sur votre voiture ? Les pare-chocs de nos voitures sont souvent les premières victimes des petits incidents de la vie quotidienne. Des égratignures aux fissures plus importantes, leur restauration est alors nécessaire. Cependant, grâce aux progrès des techniques actuelles, il est possible de faire une réparation d’un pare-chocs en plastique efficacement et économiquement.</p>
+  
+      <figure>
+          <img src="lien_avant_apres.jpg" alt="Réparation pare choc plastique">
+          <figcaption>Source photos D.R.</figcaption>
+      </figure>
+  
+      <h2>Quels sont les types de plastiques utilisés dans la carrosserie automobile ?</h2>
+  
+      <p>La carrosserie d'une voiture est un mélange de matériaux soigneusement choisis pour répondre à des objectifs divers et spécifiques, parmi lesquels le plastique est devenu une composante essentielle. Les pare-chocs, en particulier, sont souvent fabriqués à partir de plastiques comme le polypropylène, le polyéthylène, l'ABS (Acrylonitrile Butadiène Styrène) ou encore le PUR (Polyuréthane Rigide). Ces matériaux sont sélectionnés pour leur résilience, leur capacité à absorber les chocs et leur résistance aux intempéries.</p>
+  
+      <p>Même si votre pare-chocs a subi des dommages importants, ne désespérez pas, une réparation est généralement possible. La clé de la réussite de l’opération réside dans l'application d'une technique de réparation appropriée, et de l'utilisation de matériaux de réparation adéquats. Les fissures, les éraflures, et même parfois les trous peuvent être réparés pour donner à votre véhicule une apparence neuve, ou presque.</p>
+  
+      <p>Cependant, la durabilité de ces réparations dépend largement de la nature des dommages, de la qualité des matériaux de réparation utilisés et du savoir-faire de celui qui effectue la réparation. Une réparation d’un pare-chocs en plastique bien effectuée dure des années. Certes, cela peut ne pas être aussi robuste que le matériel original. Mais, pour un usage normal, une réparation de qualité devrait toutefois être suffisamment résiliente et durable pour répondre aux exigences de la plupart des conducteurs.</p>
+  
+      <h2>Comment réparer un pare-chocs en plastique de voiture endommagé ?</h2>
+  
+      <p>Réparer un pare-chocs en plastique endommagé nécessite d'abord un nettoyage minutieux de la zone touchée. Ensuite, la rayure du pare-chocs ou le trou doit être poncé pour créer une surface rugueuse sur laquelle le matériau de réparation sera en mesure d’adhérer. L’adhésif de réparation en plastique, souvent un mélange d'époxy et de durcisseur, est alors appliqué sur la zone endommagée. Après durcissement, le matériau de réparation peut être poncé pour correspondre à la forme originale du pare-chocs.</p>
+  
+      <p>La dernière étape consiste à peindre la zone réparée pour correspondre au reste du véhicule. Le coût de la réparation d'un pare-chocs en plastique peut varier en fonction de l'étendue des dégâts, et de la complexité de la tâche. Chez AD, le tarif pour une telle opération démarre à 48 €, mais peut atteindre plusieurs centaines d'euros selon le travail à réaliser.</p>
+  
+      <p>Pour réparer les pièces en plastique à l'intérieur de la voiture, la procédure est assez similaire à celle utilisée pour les pare-chocs. Cependant, la peinture n'est généralement pas nécessaire, car la plupart des plastiques intérieurs sont de couleur unie. Pour les chocs sur une autre surface en plastique du véhicule, une technique courante consiste à utiliser un pistolet à chaleur et un outil de moulage pour adoucir et remodeler la zone endommagée. Une fois le plastique refroidi, la décoloration peut être traitée avec une peinture assortie.</p>
+  
+      <h2>Quels sont les produits de réparation plastique disponibles sur le marché ?</h2>
+  
+      <p>Plusieurs produits de réparation d’un pare-chocs en plastique sont disponibles sur le marché, et dédiés spécifiquement aux plastiques des voitures. On y trouve des kits de réparation de plastique qui comprennent généralement un adhésif époxy, un durcisseur, et parfois même des feuilles de renforcement en fibre de verre. L'utilisation de mastic de carrosserie est plus appropriée lorsque vous avez affaire à des trous ou des dommages plus profonds qui ne peuvent être efficacement comblés par un adhésif de plastique seul. Le mastic est plus dense et peut fournir un remplissage plus solide et plus durable.</p>
+  
+      <p>Parmi les outils utilisés pour réparer les pièces en plastique de la voiture, les professionnels ont habituellement recours à des pistolets à air chaud, des outils de moulage et de ponçage, des perceuses, et parfois des outils de soudage par points. Par ailleurs, des pistolets à colle thermofusible sont fréquemment utilisés pour des réparations temporaires ou pour renforcer la durabilité des autres méthodes de réparation citées. Un produit de réparation en aérosol peut être utilisé pour recouvrir et protéger les zones réparées ou pour rénover les surfaces en plastique ternies. Il suffit de vaporiser le produit sur la surface en suivant les instructions.</p>
+  
+      <p>Les agrafes en plastique constituent une méthode de réparation efficace, quand le plastique est éclaté ou fendu. Elles fournissent une force supplémentaire à la zone réparée en tenant les pièces ensemble pendant que l'adhésif durcit. La soudure est une autre méthode, qui utilise un plastique de remplissage fondu pour combler les trous ou les fissures. Une fois refroidi, ce plastique de spécial durcit et forme une réparation solide et durable. Cependant, elle nécessite un équipement spécialisé et un certain niveau d’expertise.</p>
+  
+      <h2>Est-ce que je peux réparer moi-même un pare-chocs en plastique de voiture ?</h2>
+  
+      <p>Il est tout à fait possible de réparer vous-même un pare-chocs en plastique, à condition de disposer des outils appropriés, des bons matériaux de réparation et d'un peu de patience. Cependant, il faut garder à l'esprit que certaines compétences techniques sont requises pour effectuer une réparation de qualité, et les erreurs de débutant tendent à aggraver les dommages. Par conséquent, pour des dommages importants, des réparations complexes, ou si vous n'êtes pas à l'aise avec ce type de travail, il est fortement recommandé de faire appel à un professionnel, comme ceux des garages AD.</p>
+  
+      <p>Par exemple, un pistolet à souder doit parfois être utilisé pour réparer un pare-chocs en plastique en fusionnant les zones de plastique cassé ou fissuré. Cela nécessite un niveau de compétence technique plus élevé et doit être effectué avec prudence pour éviter d'endommager davantage le pare-chocs. Un pistolet à peinture, utilisé correctement, peut aider à masquer les réparations et à donner à votre voiture un aspect neuf. Cependant, la peinture de voiture est une tâche délicate qui nécessite une certaine expertise pour avoir un résultat uniforme et sans traces. Là encore, un professionnel est préférable.</p>
+  
+    </div>
+    <div id="page3" class="page">
+
+      <h1>Rénovation Optique de Phare : Prix et Devis</h1>
+
+      <p>Comment rénover vos phares de voiture ? N'attendez-plus pour la rénovation de vos optiques de phare. Couvre-phare, phare, lentille, vitre, optique… Quel que soit le nom que vous lui donnez, cette pièce transparente protégeant les ampoules joue un rôle essentiel dans l’éclairage de votre voiture. Il arrive qu’elle devienne terne avec le temps, ce qui nuit aussi bien à la visibilité qu’à l’esthétique de votre véhicule. Heureusement, il existe des techniques de rénovation de phare.</p>
+  
+      <h2>Pourquoi rénover les phares de sa voiture ?</h2>
+  
+      <p>La rénovation des phares de votre voiture est importante pour plusieurs raisons. La première concerne votre sécurité et celle des autres usagers de la route. La nuit, par temps de pluie ou de brouillard, l’opacité des optiques réduit votre visibilité de 30 à 40 %. En d’autres termes, vous ne voyez plus aussi loin qu’avec des optiques en bon état. L’éclairage de votre véhicule doit toujours être opérationnel. Les optiques font d’ailleurs partie des 133 points du contrôle technique. Si vos phares sont trop opaques, vous risquez une contre-visite. Par ailleurs, rouler avec des phares en mauvais état est passible d’une amende forfaitaire de 68 €.</p>
+  
+      <p>La deuxième raison d’effectuer la rénovation de ses phares est économique. Si vous attendez trop longtemps, les optiques de phares de votre véhicule risquent d’être trop dégradées pour être rénovées. Si votre voiture ne passe pas au contrôle technique pour cette raison, vous devrez alors remplacer les optiques de phares. Cette opération coûte beaucoup plus cher qu’une simple rénovation de phare. Par ailleurs, des optiques ternes peuvent aussi vous empêcher de vendre votre véhicule.</p>
+  
+      <p>Enfin, des phares de voiture ternes ou opaques diminuent l’effet esthétique de votre voiture. Les optiques des véhicules modernes font partie intégrante du design automobile. Contrairement aux anciens modèles striés, les phares récents misent sur la transparence : les ampoules halogènes, LED ou au xénon doivent être parfaitement visibles à l’intérieur du bloc. Même si la carrosserie est propre et en bon état, des optiques ternes donneront l’impression d’un véhicule négligé.</p>
+  
+      <h2>Pourquoi les phares sont-ils opaques ?</h2>
+  
+      <p>Jusque dans les années 1980, les phares automobiles étaient en verre. Aujourd'hui la plupart des modèles de voitures sont équipés d’optiques de phares en polycarbonate. Ce polymère offre de nombreux avantages par rapport au verre :</p>
+  
+      <ul>
+          <li>il est 250 fois plus résistant ;</li>
+          <li>également deux fois plus léger ;</li>
+          <li>il a la même transparence ;</li>
+          <li>et il résiste très bien à la chaleur.</li>
+      </ul>
+  
+      <p>Malgré ses excellentes propriétés, le polycarbonate peut s’altérer. Les phares en polycarbonate de votre voiture sont exposés à de nombreuses agressions qui peuvent les ternir et les rendre opaques. Lorsque vous roulez, de petits cailloux ou des grains de sable entrent en collision avec les phares. La vitesse en fait des projectiles qui provoquent de petits impacts. Les phares de voiture en polycarbonate sont aussi sensibles aux rayons du soleil. Une exposition prolongée aux UV a tendance à ternir ou jaunir les optiques automobiles. Par ailleurs, de la condensation peut se former à l’intérieur du bloc optique, ce qui donne également un aspect trouble à vos phares.</p>
+  
+      <h2>Dans quel cas faut-il rénover les phares de sa voiture ?</h2>
+  
+      <p>Si vous constatez que vos phares n’éclairent plus aussi bien qu’avant, contrôlez leur état. Dans le cas où les optiques sont troubles (vous ne distinguez pas bien les ampoules à l’intérieur), ternies ou jaunies, vous devez procéder à la rénovation des phares de votre voiture. D'autres facteurs peuvent réduire l’efficacité de l’éclairage, comme la présence de buée dans les blocs optiques ou une ampoule HS.</p>
+  
+      <h2>Comment retirer l'opacité des phares et à quel prix ?</h2>
+  
+      <p>La rénovation des phares permet de rendre vos optiques comme neuves : votre véhicule passera le contrôle technique tout en retrouvant son aspect esthétique. Pour rénover vos phares, vous pouvez tout d'abord demander un devis à un professionnel. Un garage AD peut réaliser cette prestation à partir de 30 €. Vous pouvez aussi rénover vos optiques vous-même en vous munissant des outils adéquats et en suivant un procédé adapté. Il existe trois techniques : le polissage/lustrage, la polymérisation (rénovation vapeur) et le vernissage. Le polissage est simple, économique et permet d’obtenir de bons résultats. La polymérisation nécessite un kit qui coûte autour de 40 €, mais le résultat est encore meilleur. Le vernissage est aussi une bonne solution pour rénover des phares en plastique.</p>
+  
+      <h2>Quel est le meilleur produit pour rénover des phares ?</h2>
+  
+      <p>Il est difficile de dire quel est le meilleur produit de rénovation pour optiques de phares en polycarbonate puisque cela dépend notamment de votre budget et du temps dont vous disposez. La solution la plus économique consiste à poncer les optiques à la main avec des feuilles d’abrasif puis de lustrer avec un polish microrayures. Néanmoins, cette technique prend du temps : environ une heure par phare ! Si vous possédez une perceuse, vous pouvez opter pour un kit de rénovation qui inclut les disques et le produit rénovateur. Il en existe de nombreux sur le marché, avec des prix variables selon la marque. Sur le web, vous trouverez des comparatifs qui vous aideront à choisir le meilleur kit de rénovation phare. En ce qui concerne le produit de polissage de phare, il en existe aussi des dizaines. Vous trouverez aussi des produits 2 en 1 qui lustrent les optiques tout en assurant une protection grâce à un vernis.</p>
+  
+      <h2>Deux photos à la fin</h2>
+  
+      <!-- Ajout de la première image -->
+      <img src="lien_image1.jpg" alt="Image 1">
+  
+      <!-- Ajout de la deuxième image -->
+      <img src="lien_image2.jpg" alt="Image 2">
+  
+      
+    </div>
+    <div id="page4" class="page">
+      
+   
+      <h1>Remplacement Pare Brise : Prix et Devis</h1>
+
+      <p>Opter pour un remplacement de pare-brise permet d’assurer une conduite plus sûre. Le pare-brise de votre voiture est bien plus qu'un simple bouclier contre les éléments extérieurs. Donc, si votre pare-brise est fissuré ou brisé, son remplacement doit être fait le plus rapidement possible. Sachant qu’un pare-brise endommagé peut gêner votre visibilité et augmenter le risque d'accident.</p>
+  
+      <h2>Quel est le prix d’un remplacement de pare-brise ?</h2>
+  
+      <figure>
+          <!-- Ajout de l'image -->
+          <img src="lien_image1.jpg" alt="Coupe d’un pare-brise">
+          <figcaption>Source illustration D.R.</figcaption>
+      </figure>
+  
+      <p>Le prix d'un remplacement de pare-brise varie en fonction de plusieurs facteurs. D’où l’hésitation de nombreux conducteurs. Bien sûr, voici quelques facteurs qui influent sur le coût du remplacement de pare-brise, notamment :</p>
+  
+      <ul>
+          <li>Le modèle et la marque de votre véhicule.</li>
+          <li>La taille et la complexité du pare-brise.</li>
+          <li>Le type de pare-brise (teinté, chauffant, etc.).</li>
+          <li>Le lieu où vous vous trouvez.</li>
+      </ul>
+  
+      <p>N'attendez plus, contactez les experts en remplacement de pare-brise automobile chez AD. Comme on peut s’y attendre, les garages AD garantissent une installation précise, des matériaux de qualité et un service rapide. Sur AD.fr les devis et rendez-vous en ligne sont faciles.</p>
+  
+      <h2>Remplacement ou réparation du pare-brise : que faire ?</h2>
+  
+      <!-- Ajout de l'image -->
+      <figure>
+          <img src="lien_image2.jpg" alt="Remplacement ou réparation de pare-brise">
+          <figcaption>Source Illustration ETAI</figcaption>
+      </figure>
+  
+      <p>Le remplacement ou la réparation du pare-brise endommagé est bien plus qu'une simple question d'esthétique automobile. Face à des éclats, des fissures ou des impacts, la décision entre la réparation et le remplacement peut être cruciale. Ne sous-estimez pas l'importance de cette pièce vitale de votre véhicule.</p>
+  
+      <ul>
+          <li>La taille de l’impact : évaluer la taille et la nature de l'impact sur votre pare-brise. Les éclats et les fissures de petite taille peuvent souvent être réparés avec succès.</li>
+          <li>Le choix d’une réparation rapide : La réparation rapide d'un pare-brise est généralement plus rapide et moins coûteuse que le remplacement complet. Cependant, la réparation a ses limites, c’est pourquoi il est préférable de passer par un garage.</li>
+          <li>Les coûts : La réparation est souvent moins chère, que le remplacement complet du pare-brise.</li>
+      </ul>
+  
+      <p>Bon à savoir : la réparation d’un impact est gratuite chez votre carrossier AD sous réserve d’être assuré.</p>
+  
+      <h2>Que faire en cas d’impact sur le pare-brise?</h2>
+  
+      <p>Du petit éclat de gravier au gros caillou qui a causé des dommages, voici 3 étapes pour réagir rapidement et efficacement face à un impact sur votre pare-brise.</p>
+  
+      <ol>
+          <li>Evaluation des dommages : évaluez immédiatement la gravité du dommage causé sur votre pare-brise pour savoir si vous devez réaliser une réparation ou un remplacement de pare-brise.</li>
+          <li>En cas d’impact de gravier : si l'impact est un éclat de gravier, utilisez du ruban adhésif transparent pour couvrir la zone. Cela peut aider à empêcher la saleté et l'humidité de pénétrer dans la fissure. Ensuite, ramenez rapidement votre voiture chez un garagiste pour limiter les dégâts.</li>
+          <li>Temps de réaction : Si l'impact est petit et situé hors du champ de vision, une réparation rapide peut souvent prévenir la nécessité d'un remplacement coûteux.</li>
+      </ol>
+  
+      <h2>Que faire en cas de pare-brise fissuré ?</h2>
+  
+      <p>En cas de pare-brise fissuré, contactez immédiatement un professionnel pour évaluer les dommages. Bien que les kits de réparation de pare-brise soient disponibles dans le commerce, il est préférable de laisser les professionnels s'occuper des fissures.</p>
+  
+      <h2>Que faire en cas de rayure sur pare-brise ?</h2>
+  
+      <p>Bien qu'il puisse être tentant d'essayer des solutions de bricolage pour éliminer les rayures sur pare-brise, cela peut souvent aggraver les dommages. Les produits abrasifs ou les techniques de polissage incorrectes peuvent rendre la situation pire. Faites confiance à un professionnel pour des résultats sûrs.</p>
+  
+      <h2>Que faire en cas d’éclat sur le pare-brise ?</h2>
+  
+      <p>En cas d’éclat sur le pare-brise, évitez de prendre la route. Rendez-vous dès que possible auprès d'un garagiste qualifié AD, c’est l'assurance que votre nouveau pare-brise soit installé avec précision.</p>
+  
+      <figure>
+          <!-- Ajout de l'image -->
+          <img src="lien_image3.jpg" alt="Prix pour le remplacement d’un pare-brise sans assurance">
+          <figcaption>Source Illustration ETAI</figcaption>
+      </figure>
+  
+      <h2>Quel est le prix pour le remplacement d’un pare-brise sans assurance ?</h2>
+  
+      <p>Le prix du remplacement d'un pare-brise sans assurance varie. Un remplacement de pare-brise sans assurance peut avoir un certain coût dépendant de 3 facteurs :</p>
+  
+      <ul>
+          <li>Le type de véhicule : les véhicules haut de gamme ou dotés de fonctionnalités avancées peuvent nécessiter des pare-brise spécifiques, entraînant des coûts plus élevés.</li>
+          <li>Le choix des matériaux : certains véhicules haut de gamme peuvent nécessiter des choix de matériaux coûteux comme le verre laminé.</li>
+          <li>La localisation géographique : dans certaines régions, les coûts de main-d'œuvre et de matériaux peuvent être plus élevés, ce qui doit être pris en compte.</li>
+      </ul>
+  
+      <h2>Coût du remplacement de pare-brise avec assurance</h2>
+  
+      <p>Le coût du remplacement de pare-brise avec assurance est significativement allégé lorsque votre voiture est assurée. Si vous souhaitez effectuer un remplacement de pare-brise, le fardeau financier est largement réduit.</p>
+  
+      <h2>Coût du remplacement pare-brise sans assurance</h2>
+  
+      <p>Le coût du remplacement d’un pare-brise sans assurance dépend de la marque, le modèle du véhicule, ainsi que le type de pare-brise de la voiture.</p>
+  
+      <h2>Comment faire un devis pour le remplacement d’un pare-brise ?</h2>
+  
+      <ol>
+          <li>Saisir sa prestation, renseigner son immatriculation, ville, voir les prix et choisir un garage proche de chez soi.</li>
+          <li>Valider son rendez-vous en ligne ou par téléphone avec un garagiste pour le remplacement du pare-brise.</li>
+      </ol>
+  
+      <h2>Combien de temps de séchage faut-il compter pour le remplacement d’un pare-brise ?</h2>
+  
+      <p>En moyenne, il faut compter environ 2H30 pour que le pare-brise soit suffisamment sec avant que le véhicule puisse être conduit. Cependant, il est recommandé d'attendre au moins 24 heures.</p>
+    </div>
+</body>
+  <!-----------------------------------------------FOOTER------------------------------------------------------->
+  <footer> 
+    <div class="footer">
+      <div class="info">
+        <h3><img src="info.png" alt=""></h3>
+        <a href="index.html" class="accueil-footer" >Accueil</a>
+        <a href="vehicule-occas.html" class="vehicule-occas-footer">Véhicules D'occasion</a>
+        <a href="rep-caro.html" class="rep-caro-footer" >Réparation Carrosserie</a>
+        <a href="rep-meca.html" class="rep-meca-footer">Réparation Mecanique</a>
+        <a href="apropos.html" class="apropos-footer" >A Propos</a>
+     </div>
+      <div class="horaires">
+       <ul>
+          <li>Lundi : 9h00 - 19h00</li>
+          <li>Mardi : 9h00 - 19h00</li>
+          <li>Mercredi : 9h00 - 19h00</li>
+          <li>Jeudi : 9h00 - 19h00</li>
+          <li>Vendredi : 9h00 - 19h00</li>
+          <li>Samedi - Dimanche : Fermé</li>
+       </ul>
+      </div>
+     <div class="contact">
+       <ul>
+          <li>Tel : + 33 (0)4 56 85 96 87</li>
+          <li>Fix : + 33 (0)4 56 85 96 87</li>
+        </ul>
+      </div>
+      <div class="loc">
+        <ul>
+           <li>Viarmes</li>
+           <li>33 Rue de la gare</li>
+           <li>95270</li>
+         </ul>
+       </div>
+       <div class="word-foot"><ul><li>Site par Thomas © 2024 Garage V. Parrot</li></ul>
+       </div>
+      <hr class="footer-line line-1">
+      <hr class="footer-line line-2">
+      <hr class="footer-line line-3">
+
+ 
+      <a href="index.html">
+        <img class="snapchat" src="../images/snapchat 2.png" alt="snap">
+      </a>
+      <a href="index.html">
+        <img class="insta" src="../images/instagram 2.png" alt="snap">
+      </a>
+      <a href="index.html">
+        <img class="twitter" src="../images/twitter 2.png" alt="snap">
+      </a>
+      <a href="contact.html">
+        <img class="van" src="../images/van 2.png" alt="snap">
+      </a>
+      <a href="index.html">
+        <img class="voiture" src="../images/voiture 2.png" alt="snap">
+      </a>
+      <a href="index.html">
+        <img class="facebook" src="../images/facebook 2.png" alt="snap">
+      </a>
+      <img class="rota-horaire" src="../images/rotation-horaire.png" alt="rota-horaire">
+      <img class="carte-drapeaux" src="../images/cartes-et-drapeaux.png" alt="cartes-drapeaux">
+      <img class="info" src="../images/info.png" alt="info">
+      
+     <div class="map">
+      <img src="../images/map.png" alt="" class="map">
+   </div>
+   <div class="rectangle-17"></div>
+   <a href="mentions-legales.html" class="mentions-legales" >Mentions Legales</a>
+   <a href="termesetconditions.html" class="termesetconditions">Termes et Conditions</a>
+   <a href="politiquedeconf.html" class="politiquedeconf" >Politique de Confidentialité</a>
+    </div>
+  </footer>
+</html>
