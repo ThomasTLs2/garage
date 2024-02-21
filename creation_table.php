@@ -22,6 +22,8 @@ try {
     )";
     
     $conn->exec($sql_users);
+    $sql_insert_user = "INSERT INTO connexion (prenom, nom, email, role, mot_de_passe) VALUES
+    ('Admin', 'Admin', 'admin@admin.com', 'administrateur', 'admin')";
     // Création de la table des voitures
     $sql_voiture = "CREATE TABLE voiture (
         id INT AUTO_INCREMENT PRIMARY KEY,
