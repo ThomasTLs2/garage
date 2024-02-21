@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'SignikaNegativeSC';
+    src: url('../fonts/SignikaNegativeSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'SignikaNegativeSC';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+    color: #333;
+}
+
+.garage {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.garage form {
+    margin-top: 10px;
+}
+
+.garage label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.garage select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.garage input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.garage input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.horaires {
+    margin-top: 20px;
+}
+
+.horaires ul {
+    list-style: none;
+    padding: 0;
+}
+
+.horaires li {
+    margin-bottom: 10px;
+}

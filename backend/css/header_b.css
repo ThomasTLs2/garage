@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'SignikaNegativeSC';
+    src: url('../../fonts/SignikaNegativeSC-Regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'SignikaNegativeSC';
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; 
+}
+
+
+nav {
+    margin-top: 10px; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+
+
+li {
+    margin: 0 15px; 
+}
+
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+a[href="deconnexion.php"] {
+    color: #ff0000; 
+}
