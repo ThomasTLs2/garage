@@ -38,6 +38,15 @@ try {
     )";
     $conn->exec($sql_voiture);
 
+    $sql_formulaire = "CREATE TABLE IF NOT EXISTS contact_info (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        prenom VARCHAR(50) NOT NULL,
+        email VARCHAR(50) NOT NULL,
+        telephone VARCHAR(15),
+        message TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    )";
+
     // Création de la table des images des voitures
     $sql_photo_voiture = "CREATE TABLE photo_voiture (
         id INT AUTO_INCREMENT PRIMARY KEY,

@@ -15,6 +15,7 @@ include '../backend/php/afficher_commentaires.php';
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/pastille-ouverture.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
   </head>
   <!-----------------------------------------------HEADER------------------------------------------------------->
 <header>
@@ -55,6 +56,24 @@ include '../backend/php/afficher_commentaires.php';
 
   <!-----------------------------------------------BODY------------------------------------------------------->
 <body>
+<script>
+    // Ajoutez ce script pour activer l'accordéon
+    document.addEventListener('DOMContentLoaded', function () {
+      const accordions = document.querySelectorAll('.accordion');
+
+      accordions.forEach(accordion => {
+        accordion.addEventListener('click', function () {
+          this.classList.toggle('active');
+          const panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+          }
+        });
+      });
+    });
+  </script>
   <h1>FAQ - Garage V.Parrot</h1>
   </div>
   <div class="faq">
@@ -104,7 +123,7 @@ include '../backend/php/afficher_commentaires.php';
 
   <div class="faq">
     <button class="accordion">
-      How does it work?
+    Fournissez-vous des services d'urgence ?
       <i class="fa-solid fa-chevron-down"></i>
     </button>
     <div class="pannel">

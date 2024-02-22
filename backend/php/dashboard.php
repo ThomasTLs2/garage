@@ -59,6 +59,7 @@ if (isset($_SESSION['user_info'])) {
     <title>Tableau de Bord</title>
     <link rel="stylesheet" href="../css/dashboard.css">
     <link rel="stylesheet" href="../css/header_b.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <header>
@@ -77,6 +78,7 @@ if (isset($_SESSION['user_info'])) {
                         <a href="conn_membre.php">Personnel</a>
                     </li> 
                 <?php endif; ?>
+                <li><a href="message.php"><i class="fas fa-envelope"></i> </a></li>
 
             </ul>
         </nav>

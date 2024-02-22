@@ -3,7 +3,6 @@ include 'config.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Récupérer les données du formulaire pour la voiture
     $marque = $_POST['marque'];
     $modele = $_POST['modele'];
     $year = $_POST['year'];

@@ -17,7 +17,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['supprimer_voiture_id'
     }
 }
 
-// Récupérer la liste des voitures depuis la base de données
 $stmt = $conn->query("SELECT id, marque, modele FROM voiture");
 $voitures = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
@@ -42,12 +41,10 @@ $voitures = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <?php foreach ($voitures as $voiture) : ?>
             <li>
                 <?php echo $voiture['marque'] . " " . $voiture['modele']; ?>
-                <!-- Ajouter un formulaire de suppression pour chaque voiture -->
                 <form action="gestion_voitures.php" method="post" style="display:inline;">
                     <input type="hidden" name="supprimer_voiture_id" value="<?php echo $voiture['id']; ?>">
                     <button type="submit">Supprimer</button>
                 </form>
-                <!-- Ajouter un lien de modification pour chaque voiture -->
                 <a href="modifier_voiture.php?id=<?php echo $voiture['id']; ?>">Modifier</a>
             </li>
         <?php endforeach; ?>

@@ -1,75 +1,83 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #D8D8D8;
+    font-family: 'SignikaNegativeSC';
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 250px;
 }
 
 form {
-    margin: 20px auto; 
-    max-width: 95%; 
-    padding: 20px; 
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form h1 {
-    font-size: 18px;
+h1 {
+    text-align: center;
+    color: #333;
 }
 
-form .separation {
-    width: 100%;
-    height: 1px;
-    background-color: #000000;
+.separation {
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
 }
 
-form .corps-formulaire {
-    margin-bottom: 50px; 
-}
-
-form .corps-formulaire .groupe {
-    margin-top: 20px;
+.corps-formulaire {
     display: flex;
-    flex-direction: column; 
+    justify-content: space-between;
 }
 
-form .corps-formulaire .gauche .groupe input,
-form .corps-formulaire .droite .groupe textarea {
+.groupe {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     margin-top: 5px;
-    padding: 10px; 
-    border-radius: 5px;
 }
 
-form .corps-formulaire .droite {
-    margin-left: 0px; 
+textarea {
+    resize: vertical;
 }
 
-form .pied-formulaire button {
-    margin-top: 10px;
+i {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    color: #aaa;
+}
+
+.pied-formulaire {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #C36B22;
+    color: #fff;
     padding: 10px 20px;
+    font-size: 16px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-@media (min-width: 768px) {
-    form {
-        margin: 350px auto; 
-        max-width: 800px; 
-        padding: 30px; 
-    }
+button:hover {
+    background-color: #FF7400;
+}
 
-    form .corps-formulaire .droite {
-        margin-left: 40px; 
-    }
-
-    form .corps-formulaire .groupe {
-        flex-direction: row; 
-    }
-
-    form h1 {
-        font-size: 20px; 
-    }
-
-    form .corps-formulaire {
-        margin-bottom: 100px; 
-    }
+button:focus {
+    outline: none;
 }

@@ -11,7 +11,6 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // Récupération du rôle depuis la session
     $role = isset($_SESSION['user_info']['role']) ? $_SESSION['user_info']['role'] : null;
 } catch(PDOException $e) {
     echo "Erreur de connexion à la base de données : " . $e->getMessage();
